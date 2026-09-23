@@ -1,5 +1,7 @@
 # oysteRpop
-Small package to generate relative abundance plots and datasets.
+Small package to generate relative abundance plots and datasets. Data encapsulates multiple stations across multiple tributaries of the Chesapeake Bay over a period of 20+ years.
+
+This package contains one function for dataset and plot generation, along with a sample dataset to run. As the dataset expands with additional years, the framework will provide the same output. Therefore this package is mainly used for internal use at the Virginia Institute of Marine Science and the necessary labs therein.
 
 ## Installation
 ```r
@@ -17,4 +19,4 @@ library(oysteRpop)
 All inquiries regarding the package should be directed to Cole Miller at crmiller@vims.edu
 
 ## AI Statment
-No generative AI was used in the creation of this package or the code therein.
+No generative AI was used in the creation of this package in all its components.
