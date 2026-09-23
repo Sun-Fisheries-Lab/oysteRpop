@@ -56,7 +56,7 @@ yearlyOysterData<- left_join(yearSum, yearVar, by = "Year")
 # Plot Abundance
 g<- ggplot(data = yearlyOysterData, aes (x = Year, y = WeightedMean)) +
   theme_classic() +
-  ylab(expression(paste("Weighted Mean Abudnance (No. grab"^"-1",")"))) +
+  ylab(expression(paste("Weighted Mean Abundance (No. grab"^"-1",")"))) +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 0.93)) +
   scale_x_continuous("Year", labels = as.character(yearlyOysterData$Year), breaks = yearlyOysterData$Year) +
   geom_line(lwd =1) +
@@ -111,7 +111,7 @@ for (i in 1:length(unique(yearlyRiverOysterData$River_name))) {
     ggplot(data = yearlyRiverOysterData |> filter(River_name == unique(yearlyRiverOysterData$River_name)[i]),
          aes (x = Year, y = WeightedMean)) +
     theme_classic() +
-    ylab(expression(paste("Weighted Mean Abudnance (No. grab"^"-1",")"))) +
+    ylab(expression(paste("Weighted Mean Abundance (No. grab"^"-1",")"))) +
     theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 0.93)) +
     scale_x_continuous("Year", labels = as.character(yearlyRiverOysterData$Year), breaks = yearlyRiverOysterData$Year) +
     geom_line(lwd =1) +
