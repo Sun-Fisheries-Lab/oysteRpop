@@ -2,6 +2,9 @@
 #' @description
 #' Generate abundance plots and datasets
 #'
+#' @import tidyverse
+#' @import cowplot
+#' @import ggplotify
 #' @param d data.frame
 #'
 #' @export
