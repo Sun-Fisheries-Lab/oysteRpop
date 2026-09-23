@@ -4,6 +4,8 @@ Small package to generate relative abundance plots and datasets. Data encapsulat
 This package contains one function for dataset and plot generation, along with a sample dataset to run. As the dataset expands with additional years, the framework will provide the same output. Therefore this package is mainly used for internal use at the Virginia Institute of Marine Science (VIMS) and the necessary labs therein.
 
 ## Installation
+Installation of this package can be done using the `install_github` function in either the `remotes` or `devtools` package. The installation commands can be copied below and run in R for accessing the oysteRpop.
+
 ```r
 remotes::install_github('Sun-Fisheries-Lab/oysteRpop')
 library(oysteRpop)
