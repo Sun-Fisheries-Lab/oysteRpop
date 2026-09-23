@@ -5,7 +5,7 @@ Authors@R: c(
     person("Cole", "Miller", , "crmiller@vims.com", role = c("aut", "cre"), 
     comment = c(ORCID = "0009-0005-0775-3421")),
     person("QB", "Nguyen-Hoang",, role =c("aut")),
-    person("Ming", "Sun",, role - c("aut"))
+    person("Ming", "Sun",, role = c("aut"))
     )
 Description: Generates data and plots for relative abudnances of oysters.
 License: MIT
