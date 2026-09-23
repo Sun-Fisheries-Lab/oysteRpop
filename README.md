@@ -1,7 +1,7 @@
 # oysteRpop
 Small package to generate relative abundance plots and datasets. Data encapsulates multiple stations across multiple tributaries of the Chesapeake Bay over a period of 20+ years.
 
-This package contains one function for dataset and plot generation, along with a sample dataset to run. As the dataset expands with additional years, the framework will provide the same output. Therefore this package is mainly used for internal use at the Virginia Institute of Marine Science and the necessary labs therein.
+This package contains one function for dataset and plot generation, along with a sample dataset to run. As the dataset expands with additional years, the framework will provide the same output. Therefore this package is mainly used for internal use at the Virginia Institute of Marine Science (VIMS) and the necessary labs therein.
 
 ## Installation
 ```r
@@ -9,11 +9,13 @@ remotes::install_github('Sun-Fisheries-Lab/oysteRpop')
 library(oysteRpop)
 ```
 ## Authorship
-**Cole Miller** - Package Author
+This package was made in collaboration with the VIMS Research Experience for Undergraduates. All contents of this product are the intellectual property of the authors listed below, however are free to utilize under the MIT licensure. 
 
-**QB Nguyen-Hoang** - Original Code
+* **Cole Miller** - Package Author and Code
 
-**Ming Sun** - Data Collection and Supervision
+* **QB Nguyen-Hoang** - Code
+
+* **Ming Sun** - Data Collection and Supervision
 
 ## Contact
 All inquiries regarding the package should be directed to Cole Miller at crmiller@vims.edu
