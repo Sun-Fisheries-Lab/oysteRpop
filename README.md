@@ -8,5 +8,7 @@ library(oysteRpop)
 ```
 ## Authorship
 Cole Miller - Package Author
+
 QB Nguyen-Hoang - Original Code
+
 Ming Sun - Data Collection and Supervision
