@@ -1,5 +1,5 @@
 # oysteRpop
-Small package to generate relative abundance plots and datasets. Data encapsulates multiple stations across multiple tributaries of the Chesapeake Bay over a period of 20+ years.
+Small package to generate relative abundance plots and datasets. Data encapsulates multiple reffs across multiple tributaries of the Chesapeake Bay over a period of 20+ years. All data sources from the VIMS Patent Tong survey and generated from VOSARA.
 
 This package contains one function for dataset and plot generation, along with a sample dataset to run. As the dataset expands with additional years, the framework will provide the same output. Therefore this package is mainly used for internal use at the Virginia Institute of Marine Science (VIMS) and the necessary labs therein.
 
